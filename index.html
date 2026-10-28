@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Dieta BARF para Perros y Gatos | Porciones y Menú Crudo</title>
+  <meta name="description" content="Calcula gratis la porción diaria de Dieta BARF para perros y gatos según peso, edad y actividad. Incluye huesos carnosos, carne, vísceras y lista de compra para carnicería.">
+  <meta name="keywords" content="calculadora dieta barf, barf perro porciones, dieta barf gato porcentajes, huesos carnosos barf, menu semanal barf, transicion barf">
+  <link rel="canonical" href="https://sebiglesias.com.ar/dieta-barf/">
+  <meta name="google-adsense-account" content="ca-pub-3381238987477190">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Calculadora Dieta BARF para Perros y Gatos | Menú y Porciones">
+  <meta property="og:description" content="Calcula la ración exacta de comida cruda biológicamente adaptada (BARF) para tu perro o gato con lista de compra semanal.">
+  <meta property="og:url" content="https://sebiglesias.com.ar/dieta-barf/">
+  <meta property="og:image" content="https://sebiglesias.com.ar/dieta-barf/icon.svg">
+
+  <!-- Icons & PWA -->
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2BNDBQP0W7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2BNDBQP0W7');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3381238987477190" crossorigin="anonymous"></script>
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://sebiglesias.com.ar/dieta-barf/#webapp",
+        "name": "Calculadora de Dieta BARF para Perros y Gatos",
+        "url": "https://sebiglesias.com.ar/dieta-barf/",
+        "description": "Calculadora nutricional para alimentación natural cruda canina y felina con desglose de huesos carnosos, carne magra, vísceras y lista de compra.",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://sebiglesias.com.ar/dieta-barf/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es la Dieta BARF (ACBA)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BARF (Biologically Appropriate Raw Food o Alimentación Cruda Biológicamente Adecuada) es un modelo nutricional diseñado por el veterinario australiano Ian Billinghurst que busca alimentar a perros y gatos con ingredientes crudos frescos que imitan la dieta de sus ancestros carnívoros: huesos carnosos crudos, carne magra muscular, vísceras y una pequeña fracción de vegetales triturados."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué porcentaje de peso vivo debe comer un perro o gato adulto?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un perro adulto de peso normal suele consumir entre el 2% y el 2.5% de su peso corporal al día. Perros muy activos o deportistas requieren entre el 3% y el 4%, mientras que los cachorros en pleno crecimiento consumen entre el 6% y el 10%. En gatos adultos se recomienda entre el 3% y el 3.5% de su peso vivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se pueden dar huesos cocidos en la dieta BARF?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "¡JAMÁS! Los huesos SIEMPRE deben ofrecerse completamente CRUDOS y acompañados de carne (huesos carnosos). La cocción deshidrata el hueso y cambia su estructura de colágeno, volviéndolo quebradizo y filoso, lo que causa graves riesgos de atragantamiento o perforación gástrica. Los huesos crudos son elásticos y totalmente digeribles por el pH estomacal ácido de los carnívoros."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Por qué es obligatorio congelar la carne antes de servirla?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La carne y los pescados deben congelarse previamente durante al menos 3 a 5 días a una temperatura de -18°C o inferior. Este proceso elimina parásitos como el Toxoplasma gondii, Neospora o anisakis, garantizando un menú biológicamente seguro para tu mascota y tu familia."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo hacer la transición de alimento balanceado a BARF?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nunca se deben mezclar croquetas secas y carne cruda en el mismo plato porque tienen tiempos de digestión y pH intestinales incompatibles. Se recomienda un ayuno preventivo de 12 a 24 horas y luego iniciar con una única proteína blanca de fácil digestión (como pechuga de pollo hervida o semicruda con puré de calabaza) durante varios días antes de incorporar huesos carnosos crudos y vísceras."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="icon.svg" alt="Dieta BARF Logo" class="brand-icon">
+        <div>
+          <h1 class="brand-title">Calculadora Dieta BARF <span class="brand-badge">ANIMAL</span></h1>
+          <a href="https://sebiglesias.com.ar" class="back-link">← Volver a sebiglesias.com.ar</a>
+        </div>
+      </div>
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema">☀️</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Species Switcher -->
+    <div class="species-switcher-container">
+      <button class="species-btn active" data-species="dog">
+        <span>🐶 Perro (Canino)</span>
+      </button>
+      <button class="species-btn" data-species="cat">
+        <span>🐱 Gato (Felino)</span>
+      </button>
+    </div>
+
+    <!-- Presets bar -->
+    <div class="presets-bar">
+      <span class="presets-label">Ejemplos rápidos:</span>
+      <button class="preset-chip" data-preset="dog_labrador">🐕 Labrador 30kg (Activo)</button>
+      <button class="preset-chip" data-preset="dog_frenchie">🐶 Bulldog Francés 12kg</button>
+      <button class="preset-chip" data-preset="dog_caniche">🐩 Caniche Toy 4.5kg</button>
+      <button class="preset-chip" data-preset="dog_puppy">🐾 Cachorro 5 meses (8kg)</button>
+      <button class="preset-chip" data-preset="cat_adult">🐈 Gato Adulto 4.5kg</button>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="calc-grid">
+      <!-- Left Column: Inputs -->
+      <section class="card">
+        <h2 class="card-title">
+          <span>🐾 Datos de tu Mascota</span>
+        </h2>
+
+        <div class="form-group">
+          <label class="form-label" for="weight-input">
+            <span>Peso Actual</span>
+            <span class="form-sublabel">En kilogramos</span>
+          </label>
+          <div class="input-with-unit">
+            <input type="number" id="weight-input" class="form-input" min="0.5" max="100" step="0.5" value="20">
+            <span class="input-unit">kg</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="profile-select">
+            <span>Nivel de Actividad y Etapa de Vida</span>
+          </label>
+          <select id="profile-select" class="form-select">
+            <!-- Dynamically populated via JS -->
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">
+            <span>Número de Tomas Diarias</span>
+            <span class="form-sublabel">Comidas por día</span>
+          </label>
+          <div class="meals-selector">
+            <button class="meal-btn" data-meals="1">1 comida</button>
+            <button class="meal-btn active" data-meals="2">2 comidas</button>
+            <button class="meal-btn" data-meals="3">3 comidas</button>
+          </div>
+        </div>
+
+        <div class="action-toolbar" style="margin-top: 24px;">
+          <button id="btn-share" class="btn-primary">
+            <span>📲 Copiar Menú / WhatsApp</span>
+          </button>
+          <button id="btn-print" class="btn-secondary">
+            <span>🖨️ Imprimir</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Right Column: Results & Composition -->
+      <section class="card">
+        <h2 class="card-title">
+          <span>🥩 Ración Diaria Recomendada</span>
+        </h2>
+
+        <div class="results-hero">
+          <div class="hero-box">
+            <div id="hero-daily-grams" class="hero-val">0 g</div>
+            <div class="hero-label">Ración Total al Día</div>
+          </div>
+          <div class="hero-box">
+            <div id="hero-meal-grams" class="hero-val">0 g</div>
+            <div class="hero-label">Por Comida / Toma</div>
+          </div>
+        </div>
+
+        <div class="breakdown-list">
+          <!-- Bones -->
+          <div class="breakdown-card">
+            <div class="breakdown-header">
+              <div class="breakdown-title-group">
+                <span class="breakdown-emoji">🦴</span>
+                <span id="title-bones" class="breakdown-title">Huesos Carnosos (50%)</span>
+              </div>
+              <div id="val-bones" class="breakdown-val">0 g/día</div>
+            </div>
+            <p id="desc-bones" class="breakdown-desc">Alitas, carcasas de pollo, cuellos o costillas tiernas. SIEMPRE CRUDOS.</p>
+          </div>
+
+          <!-- Meat -->
+          <div class="breakdown-card">
+            <div class="breakdown-header">
+              <div class="breakdown-title-group">
+                <span class="breakdown-emoji">🥩</span>
+                <span id="title-meat" class="breakdown-title">Carne Muscular Magra (30%)</span>
+              </div>
+              <div id="val-meat" class="breakdown-val">0 g/día</div>
+            </div>
+            <p id="desc-meat" class="breakdown-desc">Pechuga, corazón vacuno/pollo, ternera magra, carne picada fresca, pescado blanco.</p>
+          </div>
+
+          <!-- Organs -->
+          <div class="breakdown-card">
+            <div class="breakdown-header">
+              <div class="breakdown-title-group">
+                <span class="breakdown-emoji">🫀</span>
+                <span id="title-organs" class="breakdown-title">Vísceras y Órganos (10%)</span>
+              </div>
+              <div id="val-organs" class="breakdown-val">0 g/día</div>
+            </div>
+            <p id="desc-organs" class="breakdown-desc">50% Hígado imprescindible (Vitamina A) + 50% otras vísceras (riñón, sesos, bazo).</p>
+          </div>
+
+          <!-- Vegetables & Fruits -->
+          <div id="card-veg" class="breakdown-card">
+            <div class="breakdown-header">
+              <div class="breakdown-title-group">
+                <span class="breakdown-emoji">🥦</span>
+                <span class="breakdown-title">Vegetales y Frutas (10%)</span>
+              </div>
+              <div id="val-veg" class="breakdown-val">0 g/día</div>
+            </div>
+            <p class="breakdown-desc">Triturados o cocidos al vapor: 7% calabaza/zanahoria/espinaca + 3% manzana o arándanos.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Batch Prep Planner Section -->
+    <section class="batch-section">
+      <h2 class="card-title">
+        <span>🛒 Lista de Compra para Carnicería y Batch Cooking</span>
+      </h2>
+      <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.92rem;">
+        Planifica las compras en la carnicería o pollería para fraccionar y congelar tuppers de raciones listas:
+      </p>
+
+      <div class="batch-tabs">
+        <button class="batch-tab active" data-days="7">Semanal (7 días)</button>
+        <button class="batch-tab" data-days="30">Mensual (30 días)</button>
+      </div>
+
+      <table class="batch-table">
+        <thead>
+          <tr>
+            <th>Ingrediente</th>
+            <th>Proporción</th>
+            <th>Cantidad a comprar (<span id="batch-days-label">7 días</span>)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>🦴 Huesos Carnosos Crudos</strong> (alitas, cuellos, carcasas)</td>
+            <td>40% - 50%</td>
+            <td id="batch-bones" style="font-weight: 800; color: var(--accent);">0 g</td>
+          </tr>
+          <tr>
+            <td><strong>🥩 Carne Muscular y Corazón</strong> (pechuga, ternera, cerdo)</td>
+            <td>30% - 50%</td>
+            <td id="batch-meat" style="font-weight: 800; color: var(--accent);">0 g</td>
+          </tr>
+          <tr>
+            <td><strong>🫀 Vísceras</strong> (50% hígado + 50% riñón/bazo)</td>
+            <td>10%</td>
+            <td id="batch-organs" style="font-weight: 800; color: var(--accent);">0 g</td>
+          </tr>
+          <tr>
+            <td><strong>🥦 Vegetales y Frutas Trituradas</strong></td>
+            <td>0% - 10%</td>
+            <td id="batch-veg" style="font-weight: 800; color: var(--accent);">0 g</td>
+          </tr>
+          <tr style="border-top: 2px solid var(--accent); background: var(--accent-light);">
+            <td><strong>TOTAL A PREPARAR</strong></td>
+            <td>100%</td>
+            <td id="batch-total" style="font-weight: 800; font-size: 1.1rem; color: var(--accent);">0 g</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- AdSense Banner Unit Container -->
+    <div class="ad-slot-container">
+      <div class="ad-disclaimer">Publicidad</div>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3381238987477190"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- SEO Educational Guide Section -->
+    <article class="seo-section">
+      <h2>Guía Completa de Alimentación Natural BARF para Perros y Gatos</h2>
+      <p>
+        La dieta BARF (acrónimo en inglés de <em>Biologically Appropriate Raw Food</em> o en español <strong>ACBA</strong>: <em>Alimentación Cruda Biológicamente Adecuada</em>) consiste en alimentar a nuestros animales de compañía con los ingredientes que su sistema digestivo y dentición evolucionaron para procesar: proteínas animales crudas, huesos flexibles ricos en calcio y fósforo, vísceras densas en micronutrientes y cantidades moderadas de fitonutrientes vegetales.
+      </p>
+
+      <div class="seo-danger-box">
+        <strong>⚠️ LA REGLA DE ORO DE LOS HUESOS: ¡NUNCA COCINADOS!</strong><br>
+        Los huesos que forman parte de la dieta BARF deben ser <strong>exclusivamente crudos</strong> y rodeados de carne (huesos carnosos). Al cocinarse (hervidos, al horno o a la parrilla), el colágeno del hueso se cristaliza y pierde humedad, volviéndose quebradizo y astillable, lo que genera riesgos graves de perforación estomacal. El hueso crudo es blando, elástico y es pulverizado con facilidad por el ácido clorhídrico concentrado (pH 1 a 2) del estómago de carnívoros sanos.
+      </div>
+
+      <h3>Protocolo Sanitario de Congelación Antiparasitaria</h3>
+      <p>
+        Para garantizar la total inocuidad del alimento crudo frente a bacterias y parásitos como el <em>Toxoplasma gondii</em> o el anisakis de los pescados:
+      </p>
+      <div class="seo-highlight-box">
+        <strong>❄️ Regla de Congelador:</strong> Toda la carne, huesos y vísceras deben mantenerse congelados a <strong>-18°C o inferior durante un mínimo de 3 a 5 días</strong> (y preferentemente 10 a 14 días para pescados de río o carnes de caza silvestre) antes de descongelar en heladera y servir.
+      </div>
+
+      <h3>Plan de Transición Gradual desde el Pienso / Balanceado</h3>
+      <p>
+        Nunca sustituyas de golpe el alimento comercial balanceado por carne cruda con huesos, ya que el aparato digestivo del animal debe reajustar su acidez estomacal y su microbiota:
+      </p>
+      <ul style="margin-left: 20px; color: var(--text-secondary); line-height: 1.8;">
+        <li><strong>Día 1 (Ayuno):</strong> Ayuno de 12 horas en perros adultos (solo agua fresca) para vaciar el tracto intestinal. En gatos y cachorros no se recomienda ayuno prolongado.</li>
+        <li><strong>Semana 1 (Monoproteína hervida/marcada):</strong> Una sola fuente de proteína blanca magra (pechuga de pollo, pavo o merluza) ligeramente sellada o cocida al vapor, mezclada con puré de calabaza hervida y una cucharada de yogur natural sin azúcar o kéfir probiótico.</li>
+        <li><strong>Semana 2 (Carne cruda y primeros huesos blandos):</strong> Pasar a servir la carne blanca completamente cruda y añadir los primeros huesos carnosos fáciles de masticar (alitas de pollo o cuellos).</li>
+        <li><strong>Semana 3 (Introducción de vísceras):</strong> Incorporar gradualmente el hígado (iniciando con 10 o 20 gramos) y carne roja (ternera). Si las heces son muy blandas, reducir la víscera; si son muy duras y blanquecinas, reducir el hueso carnoso.</li>
+        <li><strong>Semana 4 (Dieta completa balanceada):</strong> Integración de vísceras secundarias (riñón, sesos), variedad de carnes, pescados azules grasos (sardinas despinadas) y frutas como arándanos y manzana.</li>
+      </ul>
+
+      <h3>Alimentos Prohibidos y Tóxicos para Perros y Gatos</h3>
+      <p>
+        Bajo ningún concepto debes incluir en el menú crudo los siguientes ingredientes:
+      </p>
+      <ul style="margin-left: 20px; color: var(--text-secondary); line-height: 1.8;">
+        <li><strong>Cebolla, puerro y ajo en exceso:</strong> Contienen tiosulfatos que destruyen los glóbulos rojos (anemia hemolítica).</li>
+        <li><strong>Uvas y pasas:</strong> Provocan fallo renal agudo en caninos incluso en dosis diminutas.</li>
+        <li><strong>Chocolate, café y té:</strong> La teobromina y cafeína causan taquicardias y convulsiones.</li>
+        <li><strong>Huesos cocidos de cualquier animal:</strong> Se astillan letalmente.</li>
+        <li><strong>Palta / Aguacate (cáscara y carozo):</strong> La persina es tóxica para muchas mascotas.</li>
+      </ul>
+
+      <!-- FAQ Accordion -->
+      <h3 style="margin-top: 36px;">Preguntas Frecuentes sobre la Alimentación BARF</h3>
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <div class="faq-question">¿Qué suplementos naturales se pueden agregar a la dieta BARF? <span>▼</span></div>
+          <div class="faq-answer">
+            Los suplementos naturales más recomendados son: <strong>aceite de pescado omega-3</strong> (EPA/DHA de salmón salvaje o sardinas), <strong>huevo crudo completo con cáscara molida</strong> (1 a 3 veces por semana), <strong>kéfir de leche o yogur natural</strong> para reforzar la microbiota intestinal, <strong>algas marinas (espirulina o kelp)</strong> como fuente de yodo, y <strong>cúrcuma con una pizca de pimienta</strong> como antiinflamatorio articular natural.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">¿Cómo sé si la proporción de huesos de mi mascota es la correcta? <span>▼</span></div>
+          <div class="faq-answer">
+            Las heces son el mejor termómetro: si las cacas salen duras, calcáreas, blanquecinas o al animal le cuesta defecar, estás dando un exceso de hueso carnoso; redúcelo un 10%. Si las heces son demasiado blandas o pastosas, suele deberse a un exceso de vísceras o carne muscular sin suficiente hueso carnoso que aporte consistencia.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">¿Por qué los gatos necesitan comer corazón? <span>▼</span></div>
+          <div class="faq-answer">
+            A diferencia de los perros, los felinos no pueden sintetizar el aminoácido esencial <strong>taurina</strong> a partir de otros aminoácidos. Una deficiencia de taurina provoca ceguera irreversible (degeneración retiniana central) y cardiopatía dilatada grave. El corazón de pollo, pavo o vaca es el músculo con mayor concentración natural de taurina y debe estar siempre presente en su ración de carne muscular.
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Related Apps Cluster -->
+    <div class="related-cluster">
+      <div class="related-title">
+        <span>🔗 Otras herramientas útiles y calculadoras especializadas:</span>
+      </div>
+      <div class="related-links-grid">
+        <a href="https://sebiglesias.com.ar/pies-madereros/" class="related-app-card">
+          <span>🪵 Calculadora Pies Madereros</span>
+        </a>
+        <a href="https://sebiglesias.com.ar/cafe-ratio/" class="related-app-card">
+          <span>☕ Ratio de Café de Especialidad</span>
+        </a>
+        <a href="https://sebiglesias.com.ar/camper-solar/" class="related-app-card">
+          <span>☀️ Calculadora Solar Camper 12V</span>
+        </a>
+        <a href="https://sebiglesias.com.ar/durlock/" class="related-app-card">
+          <span>🧱 Calculadora Durlock / Drywall</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sticky Mobile Bar -->
+  <aside class="sticky-mobile-bar">
+    <div class="sticky-metric">
+      <span class="sticky-label">Ración diaria</span>
+      <span id="sticky-daily" class="sticky-val">0 g/día</span>
+    </div>
+    <div class="sticky-metric">
+      <span class="sticky-label">Por comida</span>
+      <span id="sticky-meal" class="sticky-val">0 g</span>
+    </div>
+    <button id="sticky-share-btn" class="sticky-btn">Menú</button>
+  </aside>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+</body>
+</html>
